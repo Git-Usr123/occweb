@@ -1,7 +1,8 @@
 <?php
-script('occweb', 'index');
+script('occweb', 'jquery.min');
 script('occweb', 'term');
 script('occweb', 'unix_formatting');
+script('occweb', 'index');
 style('occweb', 'style');
 ?>
 
