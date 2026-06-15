@@ -31,7 +31,7 @@ class OccController extends Controller
 
     $this->application = new Application(
       OC::$server->get(\OCP\ServerVersion::class),
-      OC::$server->getConfig(),
+      OC::$server->get(\OCP\IConfig::class),
       OC::$server->get(\OCP\EventDispatcher\IEventDispatcher::class),
       new FakeRequest(),
       $this->logger,
