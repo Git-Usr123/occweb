@@ -1,5 +1,8 @@
 (function (OC, window, $, undefined) {
   'use strict';
+  $.ajaxSetup({
+    headers: { 'requesttoken': OC.requestToken }
+  });
   $(function() {
     function scrollToBottom(){
       var html = $('html');
