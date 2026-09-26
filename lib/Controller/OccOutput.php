@@ -25,7 +25,7 @@ class OccOutput extends BufferedOutput implements ConsoleOutputInterface
     return $this;
   }
 
-  public function setErrorOutput(OutputInterface $error)
+  public function setErrorOutput(OutputInterface $error): void
   {
 
   }
